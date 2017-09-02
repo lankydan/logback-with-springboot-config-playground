@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+  <include resource="logback-console-appender.xml"/>
+
+  <root level="info">
+    <appender-ref ref="STDOUT"/>
+  </root>
+
+  <logger name="com.lankydan.service.MyServiceImpl" additivity="false" level="debug">
+    <appender-ref ref="STDOUT" />
+  </logger>
+
+</configuration>

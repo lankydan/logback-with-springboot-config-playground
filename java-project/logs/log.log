@@ -1,0 +1,26 @@
+01-09-2017 14:31:11.439 [main] INFO  com.lankydan.Application.logStarting - Starting Application on Dans-Laptop with PID 13536 (C:\Development\java\tech-io-playgrounds\logback-with-springboot-config-playground\java-project\target\classes started by dankn in C:\Development\java\tech-io-playgrounds\logback-with-springboot-config-playground\java-project)
+01-09-2017 14:31:11.448 [main] INFO  com.lankydan.Application.logStartupProfileInfo - The following profiles are active: dev
+01-09-2017 14:31:11.578 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2fd6b6c7: startup date [Fri Sep 01 14:31:11 BST 2017]; root of context hierarchy
+01-09-2017 14:31:13.492 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+01-09-2017 14:31:13.547 [main] DEBUG com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to debug - value
+01-09-2017 14:31:13.552 [main] INFO  com.lankydan.service.MyServiceImpl.doStuff - doStuff took input - value
+01-09-2017 14:31:13.553 [main] WARN  com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to warn - value
+01-09-2017 14:31:13.554 [main] ERROR com.lankydan.service.MyServiceImpl.doStuff - doStuff encountered an error with value - value
+01-09-2017 14:31:13.573 [main] INFO  com.lankydan.Application.logStarted - Started Application in 3.082 seconds (JVM running for 4.07)
+01-09-2017 14:31:13.584 [Thread-2] INFO  o.s.c.a.AnnotationConfigApplicationContext.doClose - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2fd6b6c7: startup date [Fri Sep 01 14:31:11 BST 2017]; root of context hierarchy
+01-09-2017 14:31:13.588 [Thread-2] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+01-09-2017 14:31:26.781 [main] INFO  com.lankydan.Application.logStarting - Starting Application on Dans-Laptop with PID 15940 (C:\Development\java\tech-io-playgrounds\logback-with-springboot-config-playground\java-project\target\classes started by dankn in C:\Development\java\tech-io-playgrounds\logback-with-springboot-config-playground\java-project)
+01-09-2017 14:31:26.785 [main] INFO  com.lankydan.Application.logStartupProfileInfo - The following profiles are active: dev
+01-09-2017 14:31:26.968 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2fd6b6c7: startup date [Fri Sep 01 14:31:26 BST 2017]; root of context hierarchy
+01-09-2017 14:31:29.018 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+01-09-2017 14:31:29.047 [main] DEBUG com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to debug - value
+01-09-2017 14:31:29.051 [main] INFO  com.lankydan.service.MyServiceImpl.doStuff - doStuff took input - value
+01-09-2017 14:31:29.051 [main] WARN  com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to warn - value
+01-09-2017 14:31:29.052 [main] ERROR com.lankydan.service.MyServiceImpl.doStuff - doStuff encountered an error with value - value
+01-09-2017 14:31:29.068 [main] INFO  com.lankydan.Application.logStarted - Started Application in 3.561 seconds (JVM running for 5.141)
+01-09-2017 14:31:29.070 [Thread-2] INFO  o.s.c.a.AnnotationConfigApplicationContext.doClose - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2fd6b6c7: startup date [Fri Sep 01 14:31:26 BST 2017]; root of context hierarchy
+01-09-2017 14:31:29.074 [Thread-2] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+02-09-2017 11:32:00.735 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'logging.exception-conversion-word' in any property source
+02-09-2017 11:32:00.750 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'logging.pattern.console' in any property source
+02-09-2017 11:32:00.750 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'logging.pattern.file' in any property source
+02-09-2017 11:32:00.750 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver.getProperty - Could not find key 'logging.pattern.level' in any property source

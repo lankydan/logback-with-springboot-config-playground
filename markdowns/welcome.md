@@ -46,6 +46,9 @@ public class MyServiceImpl implements MyService {
 The `LOGGER` allows messages to be written to the log using the methods which represent each logging level, `trace`, `debug`, `info`, `warn`, `error` followed be the message. The braces / curly brackets will be replaced by the value passed in as a method parameter.
 
 Now we can start looking at configuring Logback itself by starting with a relatively simple example. Below is the logback.xml file that is one of the files that Logback will search for to configure it's settings.
+
+@[Application]({"stubs": ["src/resources/logback-example-1.xml"],"command": "com.lankydan.ApplicationTest#testOne"})
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
