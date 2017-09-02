@@ -47,7 +47,8 @@ The `LOGGER` allows messages to be written to the log using the methods which re
 
 Now we can start looking at configuring Logback itself by starting with a relatively simple example. Below is the logback.xml file that is one of the files that Logback will search for to configure it's settings.
 
-@[Application]({"stubs": ["src/main/resources/logback-example-1.xml"],"command": "com.lankydan.ApplicationTest#testOne MAVEN_OPTS=-logging.config=src/main/resources/logback-example-1.xml"})
+@[Application]({"stubs": ["src/main/resources/logback-example-1.xml"],"command": "com.lankydan.ApplicationTest#testOne -DargLine='-Dlogging.config=src/main/resources/logback-example-1
+.xml'"})
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
